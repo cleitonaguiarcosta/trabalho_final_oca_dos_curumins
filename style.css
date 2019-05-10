@@ -362,3 +362,63 @@ header{
 	width: 100px;
 	height: 100px;
 }
+.containerfooter{
+	width:100%;
+	display:flex;
+	justify-content: flex-end;
+}
+.containerfooter__section{
+	width:60%;
+	height:60vh;
+	/*display:flex;	*/ 
+	background-color:#00C733; 
+}
+.containerfooter__block{
+	width: 100%;
+	display:flex;	
+	justify-content:space-around;
+	align-items:center;
+	position:relative;
+	top:70px;
+}
+.containerfooter__blockcontatos{
+	width:20vw;
+	height:40vh;
+	background-color: /*black*/;
+	display:flex;
+	flex-direction:column;
+}
+.containerfooter__h1{	
+	font-size:25px;
+	color:yellow;
+}
+ .paragrafo{
+ 	color:white;
+ 	padding-top:3vh;
+ }
+.containerfooter__div{
+	width:30%;
+	height:50vh;
+	display:flex;
+	justify-content:
+}
+.containerfooter__divimagemcriança{
+	width:320px;
+	height:240px;
+	border-radius:7%;
+}
+.containerfooter__divimg{
+	width:44%;
+	height:45vh;
+	display:flex;
+	justify-content:center;
+/*	margin-left:100px;
+	margin-top:50px;*/
+	border-radius:7%;
+	background-color:white;
+} 
+/*img{
+	width:30px;
+	height:30px;
+	margin-top:355px
+}*/
